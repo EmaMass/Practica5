@@ -13,8 +13,9 @@ import wordle.interfaces.ITablero;
 public class TableroConsola implements ITablero {
 
     @Override
-    public void despliegaIntento(String palabra) {
+    public String despliegaIntento(String palabra) {
         System.out.println(palabra);
+        return palabra;
     }
     
 }

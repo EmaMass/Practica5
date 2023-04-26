@@ -10,5 +10,5 @@ package wordle.interfaces;
  */
 public interface ITablero {
     
-    public void despliegaIntento(String palabra);    
+    public String despliegaIntento(String palabra);    
 }

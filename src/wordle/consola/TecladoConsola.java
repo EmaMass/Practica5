@@ -16,7 +16,9 @@ public class TecladoConsola implements ITeclado {
     public String getIntento() {
        Scanner in = new Scanner(System.in);
        System.out.print("Palabra: ");
-       return in.nextLine();
+       String salida = in.nextLine();
+       salida = salida.toLowerCase();
+       return salida;
     }
     
 }

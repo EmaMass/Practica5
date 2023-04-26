@@ -296,4 +296,7 @@ public class BancoDePalabras {
         return banco.get(rmd.nextInt(banco.size()));
     }
     
+    public boolean existe(String palabra){
+        return banco.contains(palabra);
+    }
 }

@@ -23,9 +23,6 @@ public class Wordle {
         ITablero tablero = new TableroHolografico();
         ITeclado teclado = new TecladoConsola();
         JuegoWordle juego = new JuegoWordle(tablero, teclado);
-        BancoDePalabras banco = new BancoDePalabras();
-        //System.out.print(banco.size()); Para revisar tamaño del banco
-        String palabraClave = banco.palabraClave();
         juego.jugar();
     }
     
