@@ -16,19 +16,6 @@ public class ComparacionTest {
     public ComparacionTest() {
     }
 
-    /**
-     * Test of comparar method, of class Comparacion.
-     */
-    @Test
-    public void testComparar() {
-        System.out.println("comparar");
-        String palabra = "";
-        String clave = "";
-        Comparacion instance = new Comparacion();
-        instance.comparar(palabra, clave);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
 
     /**
      * Test of toString method, of class Comparacion.
@@ -37,11 +24,13 @@ public class ComparacionTest {
     public void testToString() {
         System.out.println("toString");
         Comparacion instance = new Comparacion();
-        String expResult = "";
+        String expResult = "[a][l][a][p]";
+        String palabraClave = "alap";
+        String comparacion = "pala";
+        instance.comparar(palabraClave,comparacion);
         String result = instance.toString();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }

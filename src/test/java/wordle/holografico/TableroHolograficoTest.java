@@ -22,13 +22,12 @@ public class TableroHolograficoTest {
     @Test
     public void testDespliegaIntento() {
         System.out.println("despliegaIntento");
-        String palabra = "";
+        String palabra = "palabra";
         TableroHolografico instance = new TableroHolografico();
-        String expResult = "";
+        String expResult = "palabra";
         String result = instance.despliegaIntento(palabra);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }

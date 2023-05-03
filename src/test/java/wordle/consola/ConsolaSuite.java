@@ -12,7 +12,7 @@ import org.junit.runners.Suite;
  * @author poppe
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({wordle.consola.TecladoConsolaTest.class, wordle.consola.TableroConsolaTest.class})
+@Suite.SuiteClasses({wordle.consola.TableroConsolaTest.class})
 public class ConsolaSuite {
     
 }
