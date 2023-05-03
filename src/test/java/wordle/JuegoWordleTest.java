@@ -15,5 +15,17 @@ public class JuegoWordleTest {
     
     public JuegoWordleTest() {
     }
+
+    /**
+     * Test of jugar method, of class JuegoWordle.
+     */
+    @Test
+    public void testJugar() {
+        System.out.println("jugar");
+        JuegoWordle instance = null;
+        instance.jugar();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
     
 }

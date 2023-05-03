@@ -5,13 +5,15 @@
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
+import wordle.WordleITSuite;
+import wordle.WordleSuite;
 
 /**
  *
  * @author poppe
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({wordle.WordleSuite.class})
+@Suite.SuiteClasses({WordleSuite.class})
 public class RootSuite {
     
 }
